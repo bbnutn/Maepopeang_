@@ -1,0 +1,170 @@
+body {
+    background-color: #EDA432;
+    width: 320px;
+    margin: 0 0 0 0; 
+    height: auto;  
+    align-self: fixed;
+}
+a{
+   text-decoration:none;
+   color: white;
+
+}
+img {
+	width: 10px;
+	height: 10px;
+	
+}
+.bt_ok {
+	width: 250px;
+	height: 35px;
+	background: #3D2926;
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-left: 35px;
+}
+
+/*-----------------menu-----------------*/
+
+#title_name {
+	float: left;
+	width: 320px;
+	height: 50px;
+	font-size: 30px; 
+	margin-left: 5px;
+	align-self:center;
+	margin-top: 25px;
+}
+#b_omelett , #b_saladspicy , #b_drink , #b_specialmenu {
+	/*background-color: #FFCC00;*/
+    width: 320px;
+    height: 115px;
+    float: left;
+    align-self: fixed;    
+}
+#b_omelett_L , #b_saladspicy_L , #b_drink_L , #b_specialmenu_L {
+	width: 135px;
+	/*background-color: #FF7FFF;*/
+	float: left;
+	height: 115px;
+}
+#o_circle , #s_circle , #d_circle , #sm_circle{ 
+	width: 90px; /* ความกว้าง */
+	height: 90px; /* ความสูง */
+	background: #D0840F; /* สี */
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    margin-top: 35px;
+    margin-left: 45px; 
+    box-shadow: 1px 1px 35px #B18904; 
+}
+
+#b_omelett_R , #b_saladspicy_R , #b_drink_R , #b_specialmenu_R {
+	float: left;
+}
+
+img #o-img {
+	margin-top: 40px;
+}
+ 
+/*-----------------------------------------------------*/
+
+/*-----------------ingredients-----------------*/
+#name1 {
+	float: left;
+	width: 320px;
+	height: 50px;
+	font-size: 30px; 
+	margin-left: 5px;
+	align-self:center;
+	margin-top: 25px;
+}
+
+#b-1 , #b-2 , #b-3 , #b-4 {
+	width: 320px;
+    height: 100px;
+    float: left;
+    align-self: fixed;
+    background-color: red;
+}
+
+#in-1 , #in-2 , #in-3 , #in-4
+#in-5 , #in-6 , #in-7 , #in-8
+#in-9 , #in-10 , #in-11 , #in-12 
+{
+	width: 40px;
+	height: 40px;
+	background: #D0840F; /* สี */
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 40px;
+	display: block;
+    /*margin-top: 35px;
+    margin-left: 40px; */
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+}
+
+#bt {
+	width: 250px;
+	height: 35px;
+	background: #D0840F; /* สี */
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+/*-----------------------------------------------------*/
+
+/*-----------------information-----------------*/
+/*-----------------------------------------------------*/
+
+/*-----------------service-----------------*/
+#logo {
+	width: 320px;
+	height: 250px;
+	padding-top: 150px;
+	margin-left: 65px;
+}
+
+#bt_inside {
+	width: 250px;
+	height: 35px;
+	background: #3D2926; /* สี */
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-left: 35px;
+}
+
+#bt_takehome {
+	width: 250px;
+	height: 35px;
+	background: #DD3E26; /* สี */
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+/*-----------------------------------------------------*/
+
+

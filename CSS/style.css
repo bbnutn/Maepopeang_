@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'yeah_papayeah_papa';
+    src: url('yeahpapa-webfont.woff2') format('woff2'),
+         url('yeahpapa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #EDA432;
+    width: 320px;
+    margin: 0 0 0 0; 
+    height: auto;  
+    align-self: fixed;
+}
+
+a{
+   text-decoration:none;
+   display: inline-block;
+   text-align: center;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: black;
+}
+a:active {
+	color: white;
+}
+
+.bt_ok {
+	width: 250px;
+	height: 35px;
+	background: #3D2926;
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.bt_delete {
+	width: 250px;
+	height: 35px;
+	background: #3D2926;
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-left: 15px;
+    margin-top: 28px;
+}
+
+/*-----------------menu-----------------*/
+
+#title_name {
+	float: left;
+	width: 320px;
+	/*height: 20px;*/
+	font-size: 15px; 
+	margin-left: 5px;
+/*	margin-top: 25px;*/
+	font-family: 'yeah_papayeah_papa';
+	
+}
+
+#b_omelett , #b_saladspicy , #b_drink , #b_specialmenu {
+    width: 320px;
+    height: 125px;
+    float: left;    
+}
+
+#b_omelett_L , #b_saladspicy_L , #b_drink_L , #b_specialmenu_L {
+	width: 150px;
+	float: left;
+	/*height: 4px;*/
+}
+#o_circle , #s_circle , #d_circle , #sm_circle{ 
+	width: 110px;
+	height: 110px;
+	background: #D0840F; 
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    margin-top: 25px;
+    /*margin-bottom: 70px;*/
+    margin-left: 15px; 
+    box-shadow: 1px 1px 35px #B18904; 
+    /*margin-bottom: 50px;*/
+
+}
+
+
+#b_omelett_R , #b_saladspicy_R , #b_drink_R , #b_specialmenu_R {
+	float: left;
+	margin-left: 9px;
+	padding-top: 13px;
+}
+
+#b_omelett #o_circle img{
+	padding-top: 13px;
+	padding-left: 8px;
+	width: 90px;	
+	height: 80px;
+}
+
+#b_saladspicy #s_circle img{
+	padding-top: 13px;
+	padding-left: 8px;
+	width: 90px;	
+	height: 80px;
+}
+
+#b_drink #d_circle img{
+	padding-top: 11px;
+	padding-left: 8px;
+	width: 90px;	
+	height: 80px;}
+
+#b_specialmenu #sm_circle img{
+	padding-top: 11px;
+	padding-left: 7px;
+	width: 90px;	
+	height: 80px;
+}
+ 
+/*-----------------------------------------------------*/
+
+/*-----------------ingredients-----------------*/
+#title_name {
+	float: left;
+	width: 320px;
+	height: 50px;
+	font-size: 30px; 
+	margin-left: 5px;
+	align-self:center;
+	margin-top: 25px;
+}
+
+#b1 , #b2 , #b3 , #b4 {
+	width: 320px;
+    height: 100px;
+    float: left;
+    align-self: fixed;
+    
+}
+
+#in-1 , #in-2 , #in-3 , #in-4 , #in-5 , #in-6,
+#in-7 , #in-8 , #in-9 , #in-10 , #in-11 , #in-12 {
+	width: 70px;
+	height: 70px;
+	background: #D0840F; 
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 40px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 13px;
+}
+
+#in_1, #in_2, #in_3, #in_4, #in_5, #in_6,
+#in_7, #in_8, #in_9, #in_10, #in_11, #in_12 {
+	
+	margin-top: 13px;
+	font-size: 12px;
+
+}
+
+
+/*-----------------------------------------------------*/
+
+/*-----------------information-----------------*/
+#title_name1 {
+	float: left;
+	width: 320px;
+	height: 70px;
+	font-size: 30px; 
+	margin-left: 5px;
+	align-self:center;
+	margin-top: 25px;
+}
+
+#top {
+	float: left;
+	width: 320px;
+	height: 165px;
+}
+
+#top_b {
+
+	float: left;
+	background-color: #D0840F;
+	width: 280px;
+	height: 310px;
+	margin-top: 5px;
+	margin-left: 20px;
+	border-radius: 8px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+}
+#bt_no {
+	width: 45px;
+	height: 45px;
+	background: #EDA432;
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+   /* margin-top: 15px;*/
+    margin-left: 20px;
+}
+
+#top_b-1, #top_b-2, #top_b-3 {
+	float: left;
+	background-color: #ffffff;
+	width: 80px;
+	height: 75px;
+	margin-top: 30px;
+	margin-left: 10px;
+/*	margin-right: 3px;*/
+	border-radius: 8px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+}
+
+#bt_minus {
+	width: 20px;
+	height: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+}
+
+#price {
+	width: auto;
+	height: auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+}
+
+#bt_plus {
+	width: 20px;
+	height: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	margin-left: 15px;
+	float: left;
+}
+
+#middle {
+	float: left;
+	width: 320px;
+	height: 70px;
+	margin-top: 170px;
+}
+
+#middle_1 {
+	padding-top: 25px;
+	padding-left: 35px;
+}
+
+/*-----------------------------------------------------*/
+
+/*-----------------service-----------------*/
+#logo {
+	width: 320px;
+/*	height: 250px;*/
+	padding-top: 100px;
+	margin-left: 25px;
+}
+
+#bt_inside {
+	width: 250px;
+	height: 35px;
+	background: #3D2926;
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-left: 35px;
+}
+
+#bt_takehome {
+	width: 250px;
+	height: 35px;
+	background: #DD3E26;
+	-moz-border-radius: 70px; 
+	-webkit-border-radius: 70px; 
+	border-radius: 70px;
+	display: block;
+    box-shadow: 1px 1px 35px #B18904;  
+    float: left;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+/*-----------------------------------------------------*/
+
+
